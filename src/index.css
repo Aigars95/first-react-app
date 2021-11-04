@@ -1,13 +1,36 @@
+@import "./flexboxgrid.css";
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+@import "libs/reset.css";
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: 'Kaushan Script', cursive;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #eeeeee;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.button-wrapper{
+  display: flex;
+  justify-content: space-around;
+  gap: 10px;
+}
+
+.heading1{
+  text-transform: capitalize;
+  font-size: 2.5rem;
+  font-weight: 500;
+  line-height: 1.2;
+  margin-bottom: 30px;
+}
+
+.heading1__banner{
+  font-weight: bolder;
+  font-size: 4rem;
+  color:#ef7998;
+  padding-left: 10px;
 }

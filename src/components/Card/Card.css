@@ -1,0 +1,27 @@
+
+
+.card{
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    border: 1px solid rgba(0,0,0,.125);
+    margin-bottom: 30px;
+}
+
+.image__item{
+    width: 100%;
+    vertical-align: middle;
+    border-style: none;
+}
+
+.card__content{
+    display: flex;
+    padding: 1.25rem;
+    justify-content: space-between;
+}
+
+.heading2{
+    text-transform: capitalize;
+    font-size: 1.25rem;
+    cursor: pointer;
+}
